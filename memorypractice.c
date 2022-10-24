@@ -9,7 +9,7 @@ int main() {
     char grade = 'B';
     char *pGrade = &grade;
 
-    printf("%p\n", &pageCount);
+    printf("%d\n", *pPageCount);
 
     return 0;
 }
