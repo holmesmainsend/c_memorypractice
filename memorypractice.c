@@ -3,6 +3,7 @@
 
 int main() {
     int pageCount = 328;
+    int *pPageCount = &pageCount;
     double rating = 3.7;
     char grade = 'B';
 
